@@ -11,3 +11,8 @@ $sidebar-hover-color: #ebebeb;
 .side-nav.ui.vertical.menu {
   width: 17rem;
 }
+.side-nav {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

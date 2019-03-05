@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.scss';
-import {VideoGrid} from '../../components/VideoGrid/VideoGrid';
+import {HomeContent} from './HomeContent/HomeContent';
 import {SideBar} from '../SideBar/SideBar';
 
 export class Home extends React.Component {
@@ -8,12 +8,7 @@ export class Home extends React.Component {
     return (
       <React.Fragment>
         <SideBar/>
-        <div className='home'>
-          <div className="responsive-video-grid-container">
-            <VideoGrid title='Trending'/>
-            <VideoGrid title='Autos & Vehicles' hideDivider={true}/>
-          </div>
-        </div>
+        <HomeContent/>
       </React.Fragment>
     );
   }

@@ -7,7 +7,7 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {youtubeLibraryLoaded} from './store/actions/api';
 
-const API_KEY = 'AIzaSyBdSNvsaucD_YYfCC6icJ747sVDftD5TbE';
+const API_KEY = '12345';
 
 class App extends Component {
   render() {
